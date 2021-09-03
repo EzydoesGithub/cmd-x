@@ -17,4 +17,4 @@
 |                |                                                 |
 |                | .cmds                             List commands |
 ----------------------------------------------------------------]]--
-loadstring(game:HttpGet("https://github.com/EzydoesGithub/cmd-x/blob/main/cmd-x", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EzydoesGithub/cmd-x/main/cmd-x", true))()

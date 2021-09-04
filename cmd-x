@@ -4824,10 +4824,10 @@ function useCommand.advertise()
 	opx("-","Now advertising CMD-X (Thank you!)")
 end
 
-local cmdMG = false
+local cmdMg = false
 function useCommand.mg()
 	cmdAdvertise = true
-	while cmdAdvertise do
+	while cmdMg do
 		local str = "Join Moo Gang Today best server! Best admin GUI, supports paid executors: cxrd: .gg/FeKEgs5w8F"
 		sayremote:FireServer(str, "All")
 		wait(math.random(1, 6)) 
@@ -4859,7 +4859,7 @@ function useCommand.unadvertise()
 end
 
 function useCommand.unmg()
-	cmdMG = false
+	cmdMg = false
 	opx("-","Stopped advertising MG (Thank you!)")
 end
 

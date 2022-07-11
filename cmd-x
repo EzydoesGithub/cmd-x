@@ -405,11 +405,14 @@ cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
 	[1805784909] = "Owner", -- Ezy
-	[1805784909] = "Dev", -- Curvn
+	[1805784909] = "Owner", -- Ezy
+	[1112499510] = "Dev", -- Curvn
+	[8826296] = "Dev", -- Curvns Alt
 }
 
 DevCords = {
-	"Ezy#4811"
+	"Ezy#4811";
+	"lil man"
 }
 
 local Donors = {
